@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")
 async def getasli():
-    return {"Salam khoshgele!"}
+    return {" Hello everybody this is my first fastapi project.  thank you for your attention..."}
 
 
 
