@@ -1,16 +1,12 @@
 from fastapi import FastAPI
 
 
-
 app = FastAPI()
 
 
-
-
-
 @app.get("/")
-async def getasli():
-    return {" Hello everybody this is my first fastapi project.  thank you for your attention..."}
+async def main():
+    return {" Hello everybody this is my first fastapi code.  thank you for your attention..."}
 
 
 
